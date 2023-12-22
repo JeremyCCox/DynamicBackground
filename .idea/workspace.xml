@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a48cc44d-7da6-492a-b6bd-a30f2ddcf463" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cert/certificate.crt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cert/certkey.key" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicBackground.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/jeremy-horizontal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LayoutComps/DynamicBackground/DynamicBackground.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LayoutComps/DynamicBackground/PositionButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LayoutComps/DynamicBackground/RequestOverlay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/awful.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/calgaryPano.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/panorama.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="a48cc44d-7da6-492a-b6bd-a30f2ddcf463" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1703198932041</updated>
       <workItem from="1703198933120" duration="439000" />
-      <workItem from="1703199380406" duration="4874000" />
+      <workItem from="1703199380406" duration="5059000" />
     </task>
     <servers />
   </component>
