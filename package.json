@@ -1,29 +1,69 @@
 {
-  "name": "DynamicBackground",
+  "author": "Jeremy Cox",
+  "name": "dynamic-background-app",
+  "description": "The dynamic background app, electron style",
+  "main": "public/main.js",
   "version": "1.0.0",
-  "main": "src/index.js",
   "dependencies": {
     "@babel/cli": "^7.23.0",
     "@babel/core": "^7.23.2",
     "@babel/preset-env": "^7.23.2",
     "@babel/preset-react": "^7.22.15",
     "babel-loader": "^9.1.3",
+    "concurrently": "^8.2.2",
+    "cross-env": "^7.0.3",
     "css-loader": "^6.8.1",
+    "electron-is-dev": "^2.0.0",
     "file-loader": "^6.2.0",
-    "style-loader": "^3.3.3",
     "html-webpack-plugin": "^5.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.1",
-    "styled-components": "^6.1.2"
+    "style-loader": "^3.3.3",
+    "styled-components": "^6.1.2",
+    "wait-on": "^7.2.0"
   },
   "scripts": {
     "start": "webpack-dev-server .",
     "build": "webpack .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "electron:serve": "concurrently -k \"cross-env BROWSER=none npm start\" \"npm run electron:start\"",
+    "electron:start": "wait-on http://127.0.0.1:5000 && electron .",
+    "electron:solo": "electron ."
+  },
+  "browser": {},
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
+    "electron": "^28.1.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
+  },
+  "homepage": "./",
+  "build": {
+    "appId": "ca.jcox.dynamicbackground",
+    "productName": "Dynamic Backgroind",
+    "icon": "WRAP.ico",
+    "directories": {
+      "buildResources": "public"
+    },
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "electronWebPack": {
+    "whiteListedModules": [
+      "react-router-dom"
+    ]
   }
 }

@@ -15,13 +15,17 @@ module.exports = {
         static: {
             directory: path.join(__dirname, 'public')
         },
-        open: true,
+        open: false,
         hot: true,
         liveReload: true,
         historyApiFallback:true,
     },
     resolve: {
         extensions: ['.js', '.jsx', '.json'],
+        fallback:{
+            "fs":false,
+            "path":false
+        }
     },
     module: {
         rules: [
