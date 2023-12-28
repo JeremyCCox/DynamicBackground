@@ -9448,8 +9448,13 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+<<<<<<< HEAD
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.16.0&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.16.0&quot;,
+=======
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.16.1&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.16.1&quot;,
+>>>>>>> 96af4b3cc70d389ae0e4e4a6a937af7958f5f48e
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Jeremy/Documents/GitHub/DynamicBackground&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -9510,11 +9515,16 @@
       <updated>1703198932041</updated>
       <workItem from="1703198933120" duration="439000" />
       <workItem from="1703199380406" duration="5059000" />
+<<<<<<< HEAD
       <workItem from="1703628032966" duration="448000" />
       <workItem from="1703628490593" duration="3707000" />
       <workItem from="1703641643932" duration="92000" />
       <workItem from="1703742147152" duration="57000" />
       <workItem from="1703742302414" duration="162000" />
+=======
+      <workItem from="1703278973535" duration="164000" />
+      <workItem from="1703722794037" duration="12000" />
+>>>>>>> 96af4b3cc70d389ae0e4e4a6a937af7958f5f48e
     </task>
     <servers />
   </component>
