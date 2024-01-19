@@ -85,7 +85,7 @@ function posReducer(state,action){
 }
 
 function DynamicBackground(){
-    const [adjustPos,dispatchAdjustPos] = useReducer(posReducer, 50); // useReducer -> Easier way to do repetitive state processes. https://react.dev/reference/react/useReducer
+    const [adjustPos,dispatchAdjustPos] = useReducer(posReducer, 50,undefined); // useReducer -> Easier way to do repetitive state processes. https://react.dev/reference/react/useReducer
     const [dragStart,setDragStart] = useState();
     const [repeatEvent, setRepeatEvent] = useState() // Initializes as undefined (as to not run constantly)
     const [backgroundImage, setBackgroundImage] = useState("1")
